@@ -9,3 +9,8 @@ React Navigation for navigation.
 Axios for API calls.
 AsyncStorage for caching.
 React Native Elements for UI components.
+Explanation:
+Fetching Data: The HomeScreen component fetches the recent photos from Flickr API using axios.
+Caching: It checks for cached photos in AsyncStorage. If found, it sets the photos state to cached data and then updates with new data if available.
+Displaying Data: The FlatList displays the images. It falls back to cached data if the network request fails or if the app is offline.
+Styling: Basic styles are applied to position the images.
