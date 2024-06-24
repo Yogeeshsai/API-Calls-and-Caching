@@ -14,3 +14,9 @@ Fetching Data: The HomeScreen component fetches the recent photos from Flickr AP
 Caching: It checks for cached photos in AsyncStorage. If found, it sets the photos state to cached data and then updates with new data if available.
 Displaying Data: The FlatList displays the images. It falls back to cached data if the network request fails or if the app is offline.
 Styling: Basic styles are applied to position the images.
+Testing: Disconnect the network and restart the app to ensure it shows cached images.
+Video Demonstration
+To demonstrate the functionality, you can record your screen using tools like QuickTime on Mac or any screen recording software. Show fetching images online, then turning off the network, closing, and reopening the app to display cached images.
+
+Conclusion
+This is a simplified example. Depending on your exact needs and environment, you might need to handle additional edge cases or enhance the UI. The above code serves as a foundational structure to build upon.
